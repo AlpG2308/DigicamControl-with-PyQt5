@@ -1,0 +1,6 @@
+.idea/
+FIM_pic.py
+MultithreadingPyQt5.py
+ThreadGui.py
+__pycache__/
+gui.py
