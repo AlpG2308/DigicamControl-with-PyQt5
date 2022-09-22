@@ -24,4 +24,7 @@ sbp.run(self.path_remote + " /c get iso", capture_output=True, text=True).stdout
 Furthermore a counter was added otherwise the digicam-software will use an default counter, which works in mysterious ways.
 
 The gui2 is just a basic gui with a capture push-button as well as an editing line.
-The sensor signals will later be added as a variable to the `Camera_Control` class using pyqt signals. 
+The sensor signals will later be added as a variable to the `Camera_Control` class using pyqt signals.
+
+## Notes about the requirements
+The pipfile contains the pandas library which is not necessary for the control of the digicamcontrol software
