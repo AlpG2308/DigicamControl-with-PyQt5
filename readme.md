@@ -26,5 +26,8 @@ Furthermore a counter was added otherwise the digicam-software will use an defau
 The gui2 is just a basic gui with a capture push-button as well as an editing line.
 The sensor signals will later be added as a variable to the `Camera_Control` class using pyqt signals.
 
+The Fim_gui is a bit more advanced gui. It can take images with the "capture" buttom. Start a timer with the "Timer" buttom and
+do interval captures with the "Interval" button
+
 ## Notes about the requirements
 The pipfile contains the pandas library which is not necessary for the control of the digicamcontrol software
